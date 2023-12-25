@@ -6,7 +6,7 @@ from sklearn import metrics
 
 # Load Titanic training dataset
 # Use raw strings (r'') to avoid escape sequence issues
-train_data = pd.read_csv(r'A:\Code\Projects\elements-of-a.i\algorithms\train.csv')
+train_data = pd.read_csv(r'path')
 
 # Preprocess the training data (feature selection, handling missing values, encoding categorical variables, etc.)
 # For simplicity, let's use a subset of features. You may need to customize this based on your analysis.
@@ -22,7 +22,7 @@ y_train = train_data['Survived']
 
 # Load Titanic testing dataset
 # Use raw strings (r'') to avoid escape sequence issues
-test_data = pd.read_csv(r'A:\Code\Projects\elements-of-a.i\algorithms\test.csv')
+test_data = pd.read_csv(r'path')
 
 # Preprocess the testing data (similar to the training data)
 # Exclude non-numeric columns before imputing missing values
